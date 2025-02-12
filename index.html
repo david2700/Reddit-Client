@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Reddit Lanes - Multi-Column Subreddit Viewer</title>
+    <meta name="title" content="Reddit Lanes - Multi-Column Subreddit Viewer">
+    <meta name="description" content="Browse multiple subreddits simultaneously in a customizable multi-column layout. Real-time updates from your favorite Reddit communities.">
+    <meta name="keywords" content="reddit viewer, subreddit browser, reddit client, reddit lanes">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Reddit Lanes - Multi-Column Subreddit Viewer">
+    <meta property="og:description" content="Browse multiple subreddits simultaneously in a customizable multi-column layout">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:title" content="Reddit Lanes - Multi-Column Subreddit Viewer">
+    <meta property="twitter:description" content="Browse multiple subreddits simultaneously in a customizable multi-column layout">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <main class="main-container">
+            <div class="add-popup-container">
+                <i class="material-icons-outlined" id="add-lane-button">add_circle_outline</i>
+                <div class="popup-menu-wrapper">
+                    <div class="popup" data-state="closed">
+                        <p class="subreddit-text">Enter the name of subreddit</p>
+                        <input type="text" id="subreddit-input">
+                        <button class="submit-button">Add Subreddit</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html> 
